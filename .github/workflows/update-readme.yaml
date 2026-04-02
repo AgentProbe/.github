@@ -1,0 +1,39 @@
+name: Update README on Commit
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install Dependencies
+        run: |
+          cd .github
+          npm install
+
+      - name: Run Node.js Script
+        run: |
+          node index.mjs
+
+      - name: Commit and Push Changes
+        run: |
+          git config user.email "action@github.com"
+          git config user.name "GitHub Action"
+          git add .
+          git commit -m "Update README" || echo "No changes to commit"
+          git push

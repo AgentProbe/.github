@@ -1,0 +1,8 @@
+{
+    "name": "agentprobe-github-profile",
+    "version": "1.0.0",
+    "type": "module",
+    "dependencies": {
+        "badgetable": "^1.3.3"
+    }
+}
