@@ -8,18 +8,12 @@ const config = [
                 "githubUserName": "agentprobe",
                 "githubRepository": "mcp-agent-validator",
                 "githubWorkflowPath": "test-on-push.yml"
-            }
-        ]
-    },
-    {
-        'replace': '{{assessment}}',
-        'preset': 'githubDetailsCodeCoverage',
-        'projects': [
+            },
             {
                 "title": "mcp-agent-assessment",
                 "githubUserName": "agentprobe",
                 "githubRepository": "mcp-agent-assessment",
-                "githubWorkflowPath": "test-on-release.yml"
+                "githubWorkflowPath": "test-on-push.yml"
             }
         ]
     },

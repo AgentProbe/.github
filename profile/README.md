@@ -4,35 +4,17 @@ Multi-protocol validator for AI agent endpoints — MCP, A2A, x402, ERC-8004.
 
 🌐 [agentprobe.xyz](https://agentprobe.xyz)
 
----
-
 ## Core
 
 | Title | Updated | Release | Workflow | Coverage | Issues | License |
 | :-- | :-- | :-- | :-- | :-- | :-- | :-- |
+| [mcp-agent-assessment](https://github.com/agentprobe/mcp-agent-assessment) | <a href="https://api.github.com/repos/agentprobe/mcp-agent-assessment"><img src="https://img.shields.io/github/last-commit/agentprobe/mcp-agent-assessment?color=0E1116&logo=F3A966&logoColor=F3A966&style=flat&label="></a> | <a href="https://github.com/agentprobe/mcp-agent-assessment/releases/"><img src="https://img.shields.io/github/v/release/agentprobe/mcp-agent-assessment?color=0E1116&logo=F3A966&logoColor=F3A966&style=flat&label="></a> | <a href="https://github.com/agentprobe/mcp-agent-assessment/actions"><img src="https://img.shields.io/github/actions/workflow/status/agentprobe/mcp-agent-assessment/test-on-push.yml?logo=F3A966&logoColor=F3A966&style=flat&label="></a> | <a href="https://app.codecov.io/gh/agentprobe/mcp-agent-assessment"><img src="https://img.shields.io/codecov/c/github/agentprobe/mcp-agent-assessment?color=0E1116&logo=F3A966&logoColor=F3A966&style=flat&label="></a> | <a href="https://github.com/agentprobe/mcp-agent-assessment/issues/"><img src="https://img.shields.io/github/issues/agentprobe/mcp-agent-assessment?color=0E1116&logo=F3A966&logoColor=F3A966&style=flat&label="></a><a href="https://github.com/agentprobe/mcp-agent-assessment/issues?q=is:issue%20state:closed"><img src="https://img.shields.io/github/issues-closed/agentprobe/mcp-agent-assessment?color=0E1116&logo=F3A966&logoColor=F3A966&style=flat&label="></a> | <a href="https://github.com/agentprobe/mcp-agent-assessment/blob/main/LICENSE"><img src="https://img.shields.io/github/license/agentprobe/mcp-agent-assessment?color=0E1116&logo=F3A966&logoColor=F3A966&style=flat&label="></a> |
 | [mcp-agent-validator](https://github.com/agentprobe/mcp-agent-validator) | <a href="https://api.github.com/repos/agentprobe/mcp-agent-validator"><img src="https://img.shields.io/github/last-commit/agentprobe/mcp-agent-validator?color=0E1116&logo=F3A966&logoColor=F3A966&style=flat&label="></a> | <a href="https://github.com/agentprobe/mcp-agent-validator/releases/"><img src="https://img.shields.io/github/v/release/agentprobe/mcp-agent-validator?color=0E1116&logo=F3A966&logoColor=F3A966&style=flat&label="></a> | <a href="https://github.com/agentprobe/mcp-agent-validator/actions"><img src="https://img.shields.io/github/actions/workflow/status/agentprobe/mcp-agent-validator/test-on-push.yml?logo=F3A966&logoColor=F3A966&style=flat&label="></a> | <a href="https://app.codecov.io/gh/agentprobe/mcp-agent-validator"><img src="https://img.shields.io/codecov/c/github/agentprobe/mcp-agent-validator?color=0E1116&logo=F3A966&logoColor=F3A966&style=flat&label="></a> | <a href="https://github.com/agentprobe/mcp-agent-validator/issues/"><img src="https://img.shields.io/github/issues/agentprobe/mcp-agent-validator?color=0E1116&logo=F3A966&logoColor=F3A966&style=flat&label="></a><a href="https://github.com/agentprobe/mcp-agent-validator/issues?q=is:issue%20state:closed"><img src="https://img.shields.io/github/issues-closed/agentprobe/mcp-agent-validator?color=0E1116&logo=F3A966&logoColor=F3A966&style=flat&label="></a> | <a href="https://github.com/agentprobe/mcp-agent-validator/blob/main/LICENSE"><img src="https://img.shields.io/github/license/agentprobe/mcp-agent-validator?color=0E1116&logo=F3A966&logoColor=F3A966&style=flat&label="></a> |
 
 
 
-| Repository | Description |
-|------------|-------------|
-| [mcp-agent-validator](https://github.com/agentprobe/mcp-agent-validator) | Web UI + REST API for validating MCP server endpoints, A2A agent cards, x402 payment support, and ERC-8004 on-chain registrations |
-
----
-
-## Assessment Pipeline
-
-| Title | Updated | Release | Workflow | Coverage | Issues | License |
-| :-- | :-- | :-- | :-- | :-- | :-- | :-- |
-| [mcp-agent-assessment](https://github.com/agentprobe/mcp-agent-assessment) | <a href="https://api.github.com/repos/agentprobe/mcp-agent-assessment"><img src="https://img.shields.io/github/last-commit/agentprobe/mcp-agent-assessment?color=0E1116&logo=F3A966&logoColor=F3A966&style=flat&label="></a> | <a href="https://github.com/agentprobe/mcp-agent-assessment/releases/"><img src="https://img.shields.io/github/v/release/agentprobe/mcp-agent-assessment?color=0E1116&logo=F3A966&logoColor=F3A966&style=flat&label="></a> | <a href="https://github.com/agentprobe/mcp-agent-assessment/actions"><img src="https://img.shields.io/github/actions/workflow/status/agentprobe/mcp-agent-assessment/test-on-release.yml?logo=F3A966&logoColor=F3A966&style=flat&label="></a> | <a href="https://app.codecov.io/gh/agentprobe/mcp-agent-assessment"><img src="https://img.shields.io/codecov/c/github/agentprobe/mcp-agent-assessment?color=0E1116&logo=F3A966&logoColor=F3A966&style=flat&label="></a> | <a href="https://github.com/agentprobe/mcp-agent-assessment/issues/"><img src="https://img.shields.io/github/issues/agentprobe/mcp-agent-assessment?color=0E1116&logo=F3A966&logoColor=F3A966&style=flat&label="></a><a href="https://github.com/agentprobe/mcp-agent-assessment/issues?q=is:issue%20state:closed"><img src="https://img.shields.io/github/issues-closed/agentprobe/mcp-agent-assessment?color=0E1116&logo=F3A966&logoColor=F3A966&style=flat&label="></a> | <a href="https://github.com/agentprobe/mcp-agent-assessment/blob/main/LICENSE"><img src="https://img.shields.io/github/license/agentprobe/mcp-agent-assessment?color=0E1116&logo=F3A966&logoColor=F3A966&style=flat&label="></a> |
-
-
-
-| Repository | Description |
-|------------|-------------|
-| [mcp-agent-assessment](https://github.com/agentprobe/mcp-agent-assessment) | Unified 4-layer assessment pipeline that orchestrates all protocol validators into a single score |
-
----
+- **mcp-agent-validator**: Web UI + REST API for validating MCP server endpoints, A2A agent cards, x402 payment support, and ERC-8004 on-chain registrations
+- **mcp-agent-assessment**: Unified 4-layer assessment pipeline that orchestrates all protocol validators into a single score
 
 ## Protocol Validators
 
@@ -45,17 +27,7 @@ Multi-protocol validator for AI agent endpoints — MCP, A2A, x402, ERC-8004.
 
 
 
-| Repository | Description |
-|------------|-------------|
-| [a2a-agent-validator](https://github.com/agentprobe/a2a-agent-validator) | A2A Protocol agent card discovery and AP2 extension detection |
-| [x402-mcp-validator](https://github.com/agentprobe/x402-mcp-validator) | x402 payment protocol validation — probes payment support and validates payment options |
-| [erc8004-registry-parser](https://github.com/agentprobe/erc8004-registry-parser) | ERC-8004 on-chain agent registry parsing and validation |
-| [mcp-apps-validator](https://github.com/agentprobe/mcp-apps-validator) | MCP Apps UI resource detection and validation |
-
----
-
-## Apps
-
-| App | URL | Description |
-|-----|-----|-------------|
-| AgentProbe | [agentprobe.xyz](https://agentprobe.xyz) | Multi-protocol agent endpoint validator |
+- **a2a-agent-validator**: A2A Protocol agent card discovery and AP2 extension detection
+- **x402-mcp-validator**: x402 payment protocol validation — probes payment support and validates payment options
+- **erc8004-registry-parser**: ERC-8004 on-chain agent registry parsing and validation
+- **mcp-apps-validator**: MCP Apps UI resource detection and validation
