@@ -19,3 +19,4 @@ The trust and discovery layer for the MCP economy — find agent tools by what t
 - **x402-mcp-validator**: x402 payment protocol validation — probes all four schemes (exact, upto, batch-settlement, auth-capture) and MCP connection/version-branch capabilities
 - **erc8004-registry-parser**: ERC-8004 on-chain agent registry parsing and validation
 - **mcp-apps-validator**: MCP Apps UI resource detection and validation
+- **ucp-commerce-validator**: UCP (Universal Commerce Protocol, Google/Shopify) and ACP (Agentic Commerce Protocol, OpenAI/Stripe) validation — fetches `.well-known/ucp` and ACP feed/discovery, validates manifest structure, classifies commerce capabilities, and flags the MCP transport

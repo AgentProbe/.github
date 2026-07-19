@@ -44,6 +44,12 @@ const config = [
                 "githubUserName": "agentprobe",
                 "githubRepository": "mcp-apps-validator",
                 "githubWorkflowPath": "test-on-push.yml"
+            },
+            {
+                "title": "ucp-commerce-validator",
+                "githubUserName": "agentprobe",
+                "githubRepository": "ucp-commerce-validator",
+                "githubWorkflowPath": "test-on-push.yml"
             }
         ]
     }
