@@ -1,6 +1,6 @@
 # AgentProbe
 
-Multi-protocol validator for AI agent endpoints — MCP, A2A, x402, ERC-8004.
+The trust and discovery layer for the MCP economy — find agent tools by what they do, and verify the identities and reputation behind every endpoint (MCP, A2A, x402, ERC-8004).
 
 🌐 [agentprobe.xyz](https://agentprobe.xyz)
 
@@ -13,7 +13,7 @@ Multi-protocol validator for AI agent endpoints — MCP, A2A, x402, ERC-8004.
 
 
 
-- **mcp-agent-validator**: Web UI + REST API for validating MCP server endpoints, A2A agent cards, x402 payment support, and ERC-8004 on-chain registrations
+- **mcp-agent-validator**: Web UI + REST API — discover agent tools by application, validate MCP server endpoints, A2A agent cards, x402 payment, and ERC-8004 on-chain identities, and surface a Verified/Plausible/Unverified trust model
 - **mcp-agent-assessment**: Unified 4-layer assessment pipeline that orchestrates all protocol validators into a single score
 
 ## Protocol Validators
@@ -28,6 +28,6 @@ Multi-protocol validator for AI agent endpoints — MCP, A2A, x402, ERC-8004.
 
 
 - **a2a-agent-validator**: A2A Protocol agent card discovery and AP2 extension detection
-- **x402-mcp-validator**: x402 payment protocol validation — probes payment support and validates payment options
+- **x402-mcp-validator**: x402 payment protocol validation — probes all four schemes (exact, upto, batch-settlement, auth-capture) and MCP connection/version-branch capabilities
 - **erc8004-registry-parser**: ERC-8004 on-chain agent registry parsing and validation
 - **mcp-apps-validator**: MCP Apps UI resource detection and validation
