@@ -4,12 +4,6 @@ const config = [
         'preset': 'githubDetailsCodeCoverage',
         'projects': [
             {
-                "title": "mcp-agent-validator",
-                "githubUserName": "agentprobe",
-                "githubRepository": "mcp-agent-validator",
-                "githubWorkflowPath": "test-on-push.yml"
-            },
-            {
                 "title": "mcp-agent-assessment",
                 "githubUserName": "agentprobe",
                 "githubRepository": "mcp-agent-assessment",
@@ -49,6 +43,18 @@ const config = [
                 "title": "ucp-commerce-validator",
                 "githubUserName": "agentprobe",
                 "githubRepository": "ucp-commerce-validator",
+                "githubWorkflowPath": "test-on-push.yml"
+            }
+        ]
+    },
+    {
+        'replace': '{{experimental}}',
+        'preset': 'githubDetailsCodeCoverage',
+        'projects': [
+            {
+                "title": "ucp-prava-grader",
+                "githubUserName": "agentprobe",
+                "githubRepository": "ucp-prava-grader",
                 "githubWorkflowPath": "test-on-push.yml"
             }
         ]

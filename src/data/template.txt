@@ -8,7 +8,6 @@ The trust and discovery layer for the MCP economy — find agent tools by what t
 
 {{core}}
 
-- **mcp-agent-validator**: Web UI + REST API — discover agent tools by application, validate MCP server endpoints, A2A agent cards, x402 payment, and ERC-8004 on-chain identities, and surface a Verified/Plausible/Unverified trust model
 - **mcp-agent-assessment**: Unified 4-layer assessment pipeline that orchestrates all protocol validators into a single score
 
 ## Protocol Validators
@@ -20,3 +19,9 @@ The trust and discovery layer for the MCP economy — find agent tools by what t
 - **erc8004-registry-parser**: ERC-8004 on-chain agent registry parsing and validation
 - **mcp-apps-validator**: MCP Apps UI resource detection and validation
 - **ucp-commerce-validator**: UCP (Universal Commerce Protocol, Google/Shopify) and ACP (Agentic Commerce Protocol, OpenAI/Stripe) validation — fetches `.well-known/ucp` and ACP feed/discovery, validates manifest structure, classifies commerce capabilities, and flags the MCP transport
+
+## Experimental
+
+{{experimental}}
+
+- **ucp-prava-grader** *(hackathon experiment)*: "Payable" — a probabilistic categorization layer on top of the UCP-Commerce validator that maps each merchant to an MCC and grades it against Prava §8 (payable-via-Prava: `eligible` / `prohibited` / `not_assessed`). A standalone experiment, not pinned into the assessment engine.
