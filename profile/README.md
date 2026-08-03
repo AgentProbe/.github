@@ -4,6 +4,14 @@ The trust and discovery layer for the MCP economy — find agent tools by what t
 
 🌐 [agentprobe.xyz](https://agentprobe.xyz)
 
+```mermaid
+flowchart LR
+  URL["Agent endpoint"] --> AP["AgentProbe · assessment pipeline"]
+  AP --> VAL["Protocol validators<br/>MCP · A2A · x402 · ERC-8004 · UCP"]
+  VAL --> TRUST["Trust model<br/>Verified · Plausible · Unverified"]
+  TRUST --> DIR["Directory<br/>discover · verify"]
+```
+
 ## Core
 
 | Title | Updated | Release | Workflow | Coverage | Issues | License |
