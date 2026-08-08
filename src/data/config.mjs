@@ -46,18 +46,6 @@ const config = [
                 "githubWorkflowPath": "test-on-push.yml"
             }
         ]
-    },
-    {
-        'replace': '{{experimental}}',
-        'preset': 'githubDetailsCodeCoverage',
-        'projects': [
-            {
-                "title": "ucp-prava-grader",
-                "githubUserName": "agentprobe",
-                "githubRepository": "ucp-prava-grader",
-                "githubWorkflowPath": "test-on-push.yml"
-            }
-        ]
     }
 ]
 

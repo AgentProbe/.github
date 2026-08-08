@@ -27,9 +27,3 @@ flowchart LR
 - **erc8004-registry-parser**: ERC-8004 on-chain agent registry parsing and validation
 - **mcp-apps-validator**: MCP Apps UI resource detection and validation
 - **ucp-commerce-validator**: UCP (Universal Commerce Protocol, Google/Shopify) and ACP (Agentic Commerce Protocol, OpenAI/Stripe) validation — fetches `.well-known/ucp` and ACP feed/discovery, validates manifest structure, classifies commerce capabilities, and flags the MCP transport
-
-## Experimental
-
-{{experimental}}
-
-- **ucp-prava-grader** *(hackathon experiment)*: "Payable" — a probabilistic categorization layer on top of the UCP-Commerce validator that maps each merchant to an MCC and grades it against Prava §8 (payable-via-Prava: `eligible` / `prohibited` / `not_assessed`). A standalone experiment, not pinned into the assessment engine.
